@@ -6,6 +6,11 @@ A PDF generation library for Node.js.
 PDFKit is a PDF document generation library for Node that makes creating complex, multi-page, printable documents easy. It is written in pure CoffeeScript, but you can choose to use the API in plain 'ol JavaScript if you like. The API embraces chainability, and includes both low level functions as well as abstractions for higher level functionality. The PDFKit API is designed to be simple, so generating complex documents is often as simple as a few function calls. Check out some of the 
 [documentation and examples](http://devongovett.github.com/pdfkit/docs/getting_started.html) to see for yourself!
 
+## Fork information
+
+I have forked this repository to add the continued option. This is detailed in the following pull request. [Pull Request](https://github.com/devongovett/pdfkit/pull/60)
+As this is not yet accepted, but I need to use it, I've decided to fork.
+
 ## Installation
 
 Installation uses the [npm](http://npmjs.org/) package manager.  Just type the following command after installing npm.

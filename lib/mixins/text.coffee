@@ -196,6 +196,10 @@ module.exports =
         # split the line into words
         words = text.match(WORD_RE)
         
+        # The match function can return null
+        if !words
+          words = []
+        
         # calculate the extra width
         wrap.extraSpace = (options.wordSpacing or 0) * (words.length - 1) +   # wordSpacing
                           (options.characterSpacing or 0) * (text.length - 1) # characterSpacing
